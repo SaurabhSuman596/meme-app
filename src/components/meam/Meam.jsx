@@ -13,7 +13,7 @@ const Meam = ({ item }) => {
   return (
     <div>
       <div className="meamWrappe">
-        <p>{item.author}</p>
+        <p>{item.title}</p>
         <LazyLoadImage src={item.url} alt="" />
         <div className="meam__bottom">
           <button onClick={hadleShareClcik}>Share</button>
