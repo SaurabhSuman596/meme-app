@@ -1,0 +1,47 @@
+.meamWrappe{
+    padding: 15px;
+}
+.meamWrappe>p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.meamWrappe>img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.meam__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meme__bottom1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.meam__bottom>button{
+    padding: 8px 15px;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border: none;
+    background-color: rgba(0, 255, 179,0.8);
+    color: white;
+    width: 100vw;
+    margin-top: 3px;
+}
+
+.meme__bottom1>p{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.meme__botUnde :hover{
+    text-decoration: aliceblue;
+    border-bottom: 2px solid white;
+}

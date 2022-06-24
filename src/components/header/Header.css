@@ -1,0 +1,82 @@
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.headwrapper{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    gap: 10px;
+    justify-content: center;
+}
+
+.header__1Sec{
+    display: flex;
+    align-items: center;
+}
+
+.header__1Sec>button{
+    padding: 6px;
+    background-color: #7067FF;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+}
+
+.headerCat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+
+.headerCat>p{
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 3Px solid rgb(0, 247, 255);
+    transition: all 0.3s linear;
+    padding: 10px;
+    display: none;
+}
+.headerCat>p:hover{
+    border-width: 100%;
+    background-color:rgb(0, 247, 255) ;
+}
+
+.header__1Sec>img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.header__2Sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__2Sec>input{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: 600;
+    cursor:not-allowed;
+}
+
+.headerSearchIcon{
+    padding:10px;
+    background-color: rgb(230, 8, 230);
+    font-size:large;
+    cursor: not-allowed;
+}
